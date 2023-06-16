@@ -3,7 +3,8 @@ const { createApp } = Vue;
 const app = createApp({
     data(){
         return {
-            text: 'Titolo'
+            text: 'Titolo',
+            image: 'https://picsum.photos/300/200'
         }
     }
 });
